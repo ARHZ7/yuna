@@ -154,7 +154,7 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Melani, aku berharap Kamu panjang umur dan makin bahagia.","Kamu bikin hari orang lain terasa lebih cerah dengan ketawamu.","Kamu punya cara aneh yang buat orang nyaman di sekitarmu.", "Saya berharap semoga hal-hal yang membuat kamu runtuh ataupun yang menyakitkan turut menjadi alasan kamu untuk tetap tumbuh.", "Semoga dunia senantiasa menjaga kamu dimanapun kamu berada.", "Semoga hari-hari kamu selalu diiringi cinta yang tak pernah ada batasnya." , "Semoga setiap langkahmu dimudahkan hingga tercapai apa yang kamu inginkan."],
+  strings: ["Yuna, aku sebenarnya bingung harus mulai dari mana.","Sudah lama aku pengen ngomong ini, tapi selama ini cuma berhenti di pikiran.","Mungkin karena malu, mungkin juga karena takut kamu sudah kecewa terlalu jauh sama aku.", "Aku minta maaf karena dulu tiba tiba menghilang tanpa kabar.", "Aku sadar itu bukan hal yang baik untuk dilakukan ke seseorang, apalagi ke orang yang pernah dekat dan peduli.", "Waktu itu aku memilih diam dan pergi tanpa penjelasan" , "dan sekarang aku sadar kalau sikap itu pasti bikin kamu bingung, kecewa, atau bahkan ngerasa tidak dihargai."],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
