@@ -24,27 +24,15 @@ let countDown = new Date('Oct 22, 2023 00:00:00').getTime(),
       document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
       document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
-    if (distance < 0) {
+   if (distance < 0) {
 
-      timer.classList.add('d-none');
-      confetti();
-      clearInterval(x);
-      _slideSatu();
-    }
-
+    timer.classList.add('d-none');
+    confetti();
+    clearInterval(x);
+    _slideDua();
+  }
+    
   }, second)
-
-const _slideSatu = function () {
-  const tap = document.getElementById('tap');
-  const slideSatu = document.getElementById('slideSatu');
-  slideSatu.classList.remove('d-none');
-  setTimeout(function () {
-    tap.classList.remove('d-none');
-    document.body.addEventListener('click', function () {
-      _slideDua();
-    })
-  }, 7000);
-};
 
 const _slideDua = function () {
   const slideSatu = document.getElementById('slideSatu');
