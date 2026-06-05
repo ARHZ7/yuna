@@ -29,7 +29,7 @@ let countDown = new Date('Oct 22, 2023 00:00:00').getTime(),
     timer.classList.add('d-none');
     confetti();
     clearInterval(x);
-    _slideDua();
+    _slideTiga();
   }
     
   }, second)
